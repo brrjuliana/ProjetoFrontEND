@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    font-size: 100%;
+    background-color:white
+}
+
+.cabecalho {
+        display: flex; 
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        background-color: red;
+        
+        
+    }
+
+.logo {
+    width: 210px;
+    }
+
+.menu  {
+display: flex;
+gap: 30px;
+padding-right: 10px;
+color: white;
+font-size: 18px;
+
+}
+
+.entrega {
+    
+    width: 1300px;
+}
+
+.banner {
+    border-top: 0.4px solid #ffffff;
+}
+
+.corpo{
+    
+}
+.clube-beneficios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgb(241, 139, 139),white);
+}
+
+.titulo {
+    
+    font-size: 30px;
+}
+
+.subtitulo {
+    font-size: 18px;
+}
+
+.paragrafo {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align:start;
+}
+
+.inscricao {
+  margin: auto;
+  margin-top: 5px;
+  height: 300px; 
+  right: 300px;
+  margin-bottom: 30px;
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  -webkit-box-shadow: 1px 2px 5px
+}
+
+.titulo {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+ .campo {
+    font-size: 16px;
+
+ }
+    
+.texto-radio {
+    font-size: 12px;
+    
+}
+
+.botao {
+    
+    font-size: 15px;
+    padding: 5px 17px;
+}
+
+
+.rodape {
+    
+    background-color: rgb(185, 185, 185);
+    padding-top: 8px;
+    
+}
+
+.texto-rodape {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    flex-direction: column;
+}
