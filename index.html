@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <header class="cabecalho">
+      <!--CABEÇALHO-->
+      <img class="logo" src="logo.svg" alt="logo">
+      <nav class="menu">
+        <!--MENU DE NAVEGAÇÃO-->
+        <a class="menu-item">Inicio</a>
+        <a class="menu-item">Promoções</a>
+        <a class="menu-item">Faça seu pedido</a>
+      </nav>
+    </header>
+
+    <main class="corpo">
+      <section class="banner">
+        <img class="entrega" src="banner2.svg" alt="banner principal" />
+      </section>
+
+      <section class="clube-beneficios">
+        <h1 class="titulo">Programa de benefícios</h1>
+        <h3 class="subtitulo">Faça parte do nosso programa de benefícios!</h3>
+        <p class="paragrafo">
+          Fazendo seu cadastro em nosso programa de benefícios, você terá acesso
+          a nossas promoções exclusivas para nossos clientes que fazem parte do
+          clube! Toda semana disponibilizamos novas promoções. E você ainda
+          poderá receber o pedido diretamente de casa, com o valor promocional e
+          entrega grátis!
+        </p> <br>
+        
+      
+        <form class="inscricao">
+          <p class ="titulo"><strong>Inscreva-se abaixo:</strong></p>
+          <label class="titulo-formulario" for="nome completo"></label><br>
+          <input class="campo" placeholder ="Nome completo" type="text" id="nome" required><br><br>
+          <label class="titulo-formulario" for="celular"></label>
+          <input class="campo" placeholder ="Celular" type="celular" id="celular" required><br><br>
+          <label class="titulo-formulario" for="CPF"></label>
+          <input class="campo" placeholder ="CPF" type="cpf" id="cpf" required><br><br>
+          <label class="titulo-formulario" for="E-mail"></label>
+          <input class="campo" placeholder ="E-mail"type="email" id="email" required><br><br>
+          <input class="radio" type="radio" id="receber-email" value="Desejo receber e-mail das promoções" required>
+          <label class="texto-radio"for="html">Desejo receber e-mail das promoções.</label><br>
+          <input class="radio"type="radio" id="termos" value="termos" required>
+          <label class="texto-radio"for="html">Concordo com os termos e condições.</label><br><br>
+          <button class="botao" type="submit">Me inscrever</button><br><br>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="texto-rodape">₢ Drogarias Fernandes</p>
+    </footer>
+  </body>
+</html>
